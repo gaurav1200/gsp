@@ -33,36 +33,36 @@ const Contact = () => {
       message: "",
     });
     setLoading(false);
-    // setLoading(true);
-    // emailjs
-    //   .send(
-    //     "service_53xs9fn",
-    //     "template_tifnxql",
-    //     {
-    //       from_name: form.name,
-    //       to_name: "FirstMachine",
-    //       from_email: form.email,
-    //       to_email: "firstmachinemail@gmail.com",
-    //       message: form.message + "/n email :" + form.email,
-    //     },
-    //     "iht7wgmuW0Uio7TMe"
-    //   )
-    //   .then(
-    //     () => {
-    //       setLoading(false);
-    //       alert("Thank you . I will get back to you as soon as psossible.");
-    //       setForm({
-    //         name: "",
-    //         email: "",
-    //         message: "",
-    //       });
-    //     },
-    //     (error) => {
-    //       setLoading(false);
-    //       console.log(error);
-    //       alert("Somthing went wrong.");
-    //     }
-    //   );
+    setLoading(true);
+    emailjs
+      .send(
+        "service_53xs9fn",
+        "template_tifnxql",
+        {
+          from_name: form.name,
+          to_name: "FirstMachine",
+          from_email: form.email,
+          to_email: "firstmachinemail@gmail.com",
+          message: form.message + "/n email :" + form.email,
+        },
+        "iht7wgmuW0Uio7TMe"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you . I will get back to you as soon as psossible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Somthing went wrong.");
+        }
+      );
   };
 
   return (
