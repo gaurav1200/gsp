@@ -34,6 +34,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import kaitech from "./kaitech.jpeg";
+import chatApp1 from "./chatApp2.png";
+import lyriks1 from "./lyriks1.png";
+import camp1 from "./camp2.png";
 
 export {
   logo,
@@ -69,4 +72,7 @@ export {
   jobit,
   tripguide,
   kaitech,
+  chatApp1,
+  lyriks1,
+  camp1,
 };

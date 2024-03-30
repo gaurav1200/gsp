@@ -11,8 +11,31 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import { useEffect } from "react";
+import axios from "axios";
 
+const visitEndpoint = "https://gsp-server.onrender.com";
 const App = () => {
+  useEffect(() => {
+    if (sessionStorage.getItem("visit")) {
+      console.log("visited");
+    } else {
+      const data = {
+        webSiteName: "gsp",
+        count: 1,
+      };
+      axios
+        .post(`${visitEndpoint}/visit`, { data })
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    }
+    sessionStorage.setItem("visit", true);
+  }, []);
+
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">

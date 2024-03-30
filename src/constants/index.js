@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  chatApp1,
+  lyriks1,
+  camp1,
 } from "../assets";
 
 export const navLinks = [
@@ -197,9 +200,74 @@ const testimonials = [
   },
 ];
 
+// const projects = [
+//   {
+//     name: "Car Rent",
+//     description:
+//       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "mongodb",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "tailwind",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: carrent,
+//     source_code_link: "https://github.com/",
+//   },
+//   {
+//     name: "Job IT",
+//     description:
+//       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "restapi",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "scss",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: jobit,
+//     source_code_link: "https://github.com/",
+//   },
+//   {
+//     name: "Trip Guide",
+//     description:
+//       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+//     tags: [
+//       {
+//         name: "nextjs",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "supabase",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "css",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: tripguide,
+//     source_code_link: "https://github.com/",
+//   },
+// ];
 const projects = [
   {
-    name: "Car Rent",
+    name: "Music Player",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -207,60 +275,91 @@ const projects = [
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shazam API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-router",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: lyriks1,
+    source_code_link: "https://github.com/gaurav1200/lyriks",
+    visit_link: "https://gsp-lyriks.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Best Campgrounds",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "NodeJs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ExpressJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: camp1,
+    source_code_link: "https://github.com/gaurav1200/YELP-CAMP",
+    visit_link: "https://gsp-campgraounds.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Chat App",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "RactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ExpressJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Socket.io",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chatApp1,
+    source_code_link: "https://github.com/gaurav1200/MERN-CHAT-APP",
+    visit_link: "https://gsp-mern-chat-app.onrender.com/",
   },
 ];
-
 export { services, technologies, experiences, testimonials, projects };

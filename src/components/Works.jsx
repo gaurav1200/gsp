@@ -3,7 +3,8 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
-import { github } from "../assets";
+import { github, web } from "../assets";
+
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  visit_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -32,7 +34,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -42,6 +44,12 @@ const ProjectCard = ({
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />
+            </div>
+            <div
+              onClick={() => window.open(visit_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img src={web} alt="web" className="w-1/2 h-1/2 object-contain" />
             </div>
           </div>
         </div>
@@ -73,13 +81,9 @@ const Works = () => {
           variants={fadeIn(",", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-          voluptatum atque, aliquam fugit doloremque laborum sequi nemo!
-          Inventore quasi aspernatur quo, accusantium deleniti ad perferendis,
-          ab vel tempore laudantium expedita. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Ullam in aperiam possimus? Eveniet esse
-          vero quo voluptatem laudantium aut delectus voluptatibus ipsam,
-          excepturi ullam odit, nemo harum officiis dolores nihil?
+          Here are some of the projects I have worked on. Feel free to check
+          them out on GitHub. I have also added a link of the live demo of the
+          project if available. Please check them out.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-6">
