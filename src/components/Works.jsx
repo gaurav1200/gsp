@@ -83,7 +83,7 @@ const Works = () => {
         >
           Here are some of the projects I have worked on. Click on the GitHub
           icon to view the source code. Please feel free to check them out by
-          clicking on deplyment link of each project. I have also provided a
+          clicking on deployment link of each project. I have also provided a
           brief description of each project and the technologies used.
         </motion.p>
       </div>
