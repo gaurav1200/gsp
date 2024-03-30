@@ -269,7 +269,7 @@ const projects = [
   {
     name: "Music Player",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application where users can listen to music, view lyrics, and can get information about the song and artist. Users can get top tracks and top artists. Users also can get top songs around them.",
     tags: [
       {
         name: "react",
@@ -304,7 +304,7 @@ const projects = [
   {
     name: "Best Campgrounds",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application where users can view campgrounds, add campgrounds, and add comments on campgrounds. Users can also edit and delete their campgrounds and comments. Users can also view the location of the campground on the map. Users can also search for campgrounds by city, state or country.",
     tags: [
       {
         name: "NodeJs",
@@ -334,7 +334,7 @@ const projects = [
   {
     name: "Chat App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Real-time chat application where users can chat with each other. Users can create groups and chat with group members. Users can see typing status of other users.",
     tags: [
       {
         name: "RactJs",
