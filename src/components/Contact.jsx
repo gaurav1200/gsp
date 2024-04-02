@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    alert("Thank you . I will get back to you as soon as psossible.");
+
     setForm({
       name: "",
       email: "",
@@ -36,7 +36,7 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_53xs9fn",
+        "service_opf073t",
         "template_tifnxql",
         {
           from_name: form.name,
@@ -123,7 +123,7 @@ const Contact = () => {
       </motion.div>
       <motion.div
         variants={(slideIn("right", "tween", 0.2), 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className=" xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
