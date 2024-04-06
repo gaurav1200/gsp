@@ -2,10 +2,22 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
+import sample from "../assets/sample.pdf";
+import { download } from "../assets";
 
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const downloadFile = () => {
+    const link = document.createElement("a");
+    const data = sample;
+
+    link.href = data;
+
+    link.download = "Gaurav_Patil_Resume.pdf";
+    link.click();
+    URL.revokeObjectURL(link.href);
+  };
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -25,6 +37,12 @@ const Hero = () => {
             <br className="sm:block hidden" />
             using different technologies.
           </p>
+          <div
+            className="absolute right-3 flex m-8 justify-center items-center hover:bg-[#050d189a] border-[1px]  p-2 font-normal rounded-sm  cursor-pointer z-50"
+            onClick={downloadFile}
+          >
+            Download Resume
+          </div>
         </div>
       </div>
       <ComputersCanvas />

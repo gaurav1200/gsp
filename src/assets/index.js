@@ -10,6 +10,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import download from "./download.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -75,4 +76,5 @@ export {
   chatApp1,
   lyriks1,
   camp1,
+  download,
 };
