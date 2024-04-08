@@ -26,6 +26,7 @@ import {
   chatApp1,
   lyriks1,
   camp1,
+  bcamp2,
 } from "../assets";
 
 export const navLinks = [
@@ -129,13 +130,20 @@ const experiences = [
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       // "Implementing responsive design and ensuring cross-browser compatibility.",
       // "Participating in code reviews and providing constructive feedback to other developers.",
-      "Primarily worked on Spring boot microservices and NoSqldatabase such as Couchbase on a Telcom project.",
-      "Worked on primary microservices such as Account Management,Billgeneration Service, Quote Management, User Management and Case Management.",
-      "Built special utility microservice using spring boot for data remediation in lower environment and production.",
-      "Upgraded the spring boot major version for microservice and resolved issue related to upgrade dependencies.",
-      "In Billgenration service did code optimization for memory outage issue.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Primarily worked on Spring boot microservices and NoSqldatabase such as Couchbase on a Telcom project.",
+      // "Worked on primary microservices such as Account Management,Billgeneration Service, Quote Management, User Management and Case Management.",
+      // "Built special utility microservice using spring boot for data remediation in lower environment and production.",
+      // "Upgraded the spring boot major version for microservice and resolved issue related to upgrade dependencies.",
+      // "In Billgenration service did code optimization for memory outage issue.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained Spring Boot microservices for a Telecom project, utilizing NoSQL databases such as Couchbase.",
+      "Worked on the development of primary microservices including Account Management, Bill Generation Service, Quote Management, User Management, and Case Management, ensuring their functionality and efficiency.",
+      "Built a special utility microservice using Spring Boot for data remediation in lower environments and production, demonstrating strong problem-solving skills and attention to detail.",
+      "Upgraded the Spring Boot major version for a microservice and resolved issues related to upgraded dependencies, ensuring compatibility and stability of the application.",
+      "Optimized code in the Bill Generation Service to address memory outage issues, improving the service's performance and reliability.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products, ensuring alignment with project requirements and objectives.",
+      " Participated in code reviews and provided constructive feedback to other developers, contributing to the overall improvement of code quality and best practices within the team.",
     ],
   },
   {
@@ -145,10 +153,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - May 2023",
     points: [
-      "Primarily worked on Spring Boot and Microservice architecture.",
-      "Worked on maintaining code quality by resolving sonarqube issues and code smell's.",
-      "Increased code coverage for various microservices for legacy code by using Junit and Mockito.",
-      "Debugging and resolving the issue during testing phase.",
+      // "Primarily worked on Spring Boot and Microservice architecture.",
+      // "Worked on maintaining code quality by resolving sonarqube issues and code smell's.",
+      // "Increased code coverage for various microservices for legacy code by using Junit and Mockito.",
+      // "Debugging and resolving the issue during testing phase.",
+      "Maintained code quality by resolving SonarQube issues and code smells, ensuring adherence to best practices and standards.",
+      "Increased code coverage for various microservices for legacy code by using JUnit and Mockito, improving the overall reliability and stability of the codebase.",
+      "Implemented new RESTful APIs to meet specific project requirements and Enhanced existing RESTful APIs, based on project requirements",
+      "Collaborated with the testing team to identify and fix bugs, demonstrating strong troubleshooting and problem-solving skills.",
     ],
   },
   {
@@ -307,6 +319,37 @@ const projects = [
     image: lyriks1,
     source_code_link: "https://github.com/gaurav1200/lyriks",
     visit_link: "https://gsp-lyriks.onrender.com/",
+  },
+  {
+    name: "Best Campgrounds (Spring)",
+    description:
+      "Web application where users can view campgrounds, add campgrounds, and add comments on campgrounds. Users can also edit and delete their campgrounds and comments. Users can also view the location of the campground on the map. Users can also search for campgrounds by city, state or country.",
+    tags: [
+      {
+        name: "Spring Boot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bcamp2,
+    source_code_link: "https://github.com/gaurav1200/BestCampgrounds",
+    visit_link: "https://bestcampgrounds.onrender.com/",
+    visitName: "bestcampgrounds",
   },
   {
     name: "Best Campgrounds",

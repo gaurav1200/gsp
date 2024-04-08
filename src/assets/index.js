@@ -37,7 +37,8 @@ import tripguide from "./tripguide.png";
 import kaitech from "./kaitech.jpeg";
 import chatApp1 from "./chatApp2.png";
 import lyriks1 from "./lyriks1.png";
-import camp1 from "./camp2.png";
+import camp1 from "./ycamp2.png";
+import bcamp2 from "./bcamp2.png";
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   lyriks1,
   camp1,
   download,
+  bcamp2,
 };

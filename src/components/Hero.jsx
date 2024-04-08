@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import sample from "../assets/sample.pdf";
+import resume from "../assets/Gaurav_Patil_Resume.pdf";
 import { download } from "../assets";
 
 import { ComputersCanvas } from "./canvas";
@@ -10,7 +11,7 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   const downloadFile = () => {
     const link = document.createElement("a");
-    const data = sample;
+    const data = resume;
 
     link.href = data;
 
