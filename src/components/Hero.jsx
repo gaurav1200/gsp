@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import sample from "../assets/sample.pdf";
-import resume from "../assets/Gaurav_Patil_Resume.pdf";
-import { download } from "../assets";
+import resume from "../assets/Gaurav-Patil-Resume.pdf";
 
 import { ComputersCanvas } from "./canvas";
 
