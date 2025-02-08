@@ -1,9 +1,8 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 import { styles } from "../style";
-import sample from "../assets/sample.pdf";
-import resume from "../assets/Gaurav-Patil-Resume.pdf";
+
+import resume from "../assets/GauravPatil_BackEndDev-Resume-3Yrs.pdf";
 
 import { ComputersCanvas } from "./canvas";
 
@@ -14,7 +13,7 @@ const Hero = () => {
 
     link.href = data;
 
-    link.download = "Gaurav_Patil_Resume.pdf";
+    link.download = "GauravPatil_BackEndDev-Resume-3Yrs.pdf";
     link.click();
     URL.revokeObjectURL(link.href);
   };
